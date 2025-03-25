@@ -2,10 +2,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2408" height="2651" viewBox="0 0 2408 2651">
 <defs>
   <linearGradient id="silverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#2C2C2C;stop-opacity:1" />
-    <stop offset="50%" style="stop-color:#4A4A4A;stop-opacity:1" />
-    <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    <stop offset="0%" style="stop-color:#333333;stop-opacity:1" />
+    <stop offset="25%" style="stop-color:#777777;stop-opacity:1" />
+    <stop offset="50%" style="stop-color:#CCCCCC;stop-opacity:1" />
+    <stop offset="75%" style="stop-color:#777777;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
   </linearGradient>
+  
+  <!-- Add a subtle overlay for depth -->
+  <radialGradient id="shimmer" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.1" />
+    <stop offset="100%" style="stop-color:#000000;stop-opacity:0.1" />
+  </radialGradient>
 </defs>
 
 <path fill-rule="nonzero" fill="url(#silverGradient)" fill-opacity="1" d="M 274.089844 9.78125 C 267.5625 26.460938 266.835938 342.601562 273.363281 349.121094 C 289.316406 365.800781 293.664062 335.351562 294.390625 194.679688 L 295.117188 44.589844 L 308.167969 180.898438 C 315.417969 256.308594 323.394531 319.390625 325.570312 321.570312 C 327.742188 323.75 371.25 296.191406 422.007812 261.390625 C 472.761719 225.859375 549.625 173.648438 592.40625 146.101562 C 635.183594 117.820312 670.714844 93.160156 670.714844 90.988281 C 670.714844 88.089844 664.914062 84.460938 658.386719 82.289062 C 651.140625 80.839844 611.257812 68.511719 569.203125 56.910156 C 498.867188 35.878906 384.304688 11.949219 309.617188 1.800781 C 284.238281 -1.820312 277.714844 -0.378906 274.089844 9.78125 Z M 274.089844 9.78125 "/>
